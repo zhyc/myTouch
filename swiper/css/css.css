@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.imgWarp{
+	height: 65%;
+	background: #CCCCCC;
+	overflow: hidden;
+}
+.textWarp{
+	color: #333333;
+	text-align: center;
+}
+.textWarp h1{
+	font-size: 22px;
+	font-weight: normal;
+}
+.btnDiv{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	z-index: 100;
+}
+.btn{
+	color: #333333;
+	text-decoration: none;
+	padding: 3px 5px;
+}
+.next{
+	float: right;
+}
+.fadeIn {
+    opacity: 100;
+    filter: alpha(opacity=100);
+}
+.pagination {
+    width: auto;
+    display: table;
+    margin: 0 auto
+}
+.pagination-panel {
+    width: 100%;
+    position: fixed;
+    bottom: 50px;
+    z-index: 100;
+    height: auto
+}
+.pagination li {
+    border-radius: 15px;
+    height: 15px;
+    width: 15px;
+    background: #ccc;
+    float: left;
+    margin-right: 10px;
+    list-style-type: none
+}
+
+.pagination li.active {
+    background: #52c6d8
+}
+.pagination li:last-child {
+    margin-right: 0
+}
